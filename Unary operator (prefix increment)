@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int arr[5] = {13,11,12,17,19};
+    int i=3;
+    printf("%d", arr[++i]);
+    return 0;
+}
