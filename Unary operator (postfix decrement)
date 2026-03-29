@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int ary[4] = {100,200,300,400};
+    int i = 2;
+    printf("%d", ary[i--]);
+    return 0;
+}
